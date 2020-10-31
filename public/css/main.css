@@ -1,0 +1,130 @@
+.table.table-padded tbody td .status-pill + span {
+  margin-left: 10px;
+}
+.status-pill {
+  width: 12px;
+  height: 12px;
+  border-radius: 30px;
+  background-color: #eee;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.status-pill.yellow {
+  background-color: #f8bc34;
+}
+
+.status-pill.red {
+  background-color: #c21a1a;
+}
+
+.status-pill.green {
+  background-color: #71c21a;
+}
+
+.status-pill.smaller {
+  width: 8px;
+  height: 8px;
+}
+
+.status-pill + span {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.element-box .table:last-child, .invoice-w .table:last-child, .big-error-w .table:last-child {
+  margin-bottom: 0;
+}
+.element-box, .invoice-w, .big-error-w {
+  -webkit-animation-name: fadeUp;
+          animation-name: fadeUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.box-style, .user-profile, .element-box, .invoice-w, .big-error-w, .activity-boxes-w .activity-box, .post-box, .projects-list .project-box {
+  border-radius: 6px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+          box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+}
+
+.box-style, .user-profile, .element-box, .invoice-w, .big-error-w, .activity-boxes-w .activity-box, .post-box, .projects-list .project-box {
+  border-radius: 6px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+          box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+}
+
+.element-box, .invoice-w, .big-error-w {
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.element-box.less-padding, .less-padding.invoice-w, .less-padding.big-error-w {
+  padding: 1rem;
+}
+
+.element-box .os-tabs-controls, .invoice-w .os-tabs-controls, .big-error-w .os-tabs-controls {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+.element-box .os-tabs-controls .nav, .invoice-w .os-tabs-controls .nav, .big-error-w .os-tabs-controls .nav {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.element-box .centered-header, .invoice-w .centered-header, .big-error-w .centered-header {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.element-box .element-box-header, .invoice-w .element-box-header, .big-error-w .element-box-header {
+  color: #046fdf;
+  margin-bottom: 1rem;
+}
+
+.element-box-content + .form-header {
+  margin-top: 2rem;
+}
+
+.element-box + .element-box, .invoice-w + .element-box, .big-error-w + .element-box, .element-box + .invoice-w, .invoice-w + .invoice-w, .big-error-w + .invoice-w, .element-box + .big-error-w, .invoice-w + .big-error-w, .big-error-w + .big-error-w {
+  margin-top: 2rem;
+}
+
+.element-box-tp .input-search-w,
+.element-box .input-search-w, .invoice-w .input-search-w, .big-error-w .input-search-w {
+  margin-bottom: 1rem;
+}
+
+.element-wrapper.folded .element-header {
+  margin-bottom: 0px;
+}
+
+.element-wrapper .element-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.element-wrapper .element-header:after {
+  content: "";
+  background-color: #047bf8;
+  width: 25px;
+  height: 4px;
+  border-radius: 0px;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0px;
+}
+
+body.color-scheme-dark .element-wrapper .element-header, .content-panel.color-scheme-dark .element-wrapper .element-header {
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+}
